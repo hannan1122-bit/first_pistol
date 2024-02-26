@@ -10,7 +10,7 @@ const Paragraph = ({ heading, content, imageUrl, name, price }) => {
   };
 
   return (
-    <div className="h-60 text-red-500 border-black border-2 rounded-lg relative hover:scale-125 transition-all duration-500 hover:z-20">
+    <div className="h-60 text-red-500 border-black border-2 rounded-lg relative hover:scale-125 transition-all duration-500 hover:z-30">
       <div className="font-bold text-center bg-gray-500">
         {heading}
       </div>
