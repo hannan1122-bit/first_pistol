@@ -1,9 +1,8 @@
 import Image from "next/image";
-import Footer from "./components/Footer";
-import Navbar from "./components/Navbar";
-
-import Homedesc from "./components/Homedesc";
+import Navbar from "../components/Navbar";
 //import Para from '../components/Para'
+import Footer from "../components/Footer";
+import Contact from "../components/Contact";
 export default function Home() {
   return (
     <div className="relitive ">
@@ -11,7 +10,7 @@ export default function Home() {
         <Image width={1000} height={1000} src={"/maingun.jpg"} className="w-screen opacity-85"></Image>
       </div>
       <Navbar/>
-      <Homedesc/>
+      <Contact/>
       <Footer/>
     </div>
   );
